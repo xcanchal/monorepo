@@ -2,5 +2,8 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "publish": {
+    "registry": "https://npm.pkg.github.com/xcanchal"
+  }
 }
