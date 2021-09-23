@@ -4,6 +4,8 @@
   ],
   "version": "independent",
   "publish": {
-    "registry": "https://npm.pkg.github.com/xcanchal"
+    "command": {
+      "@xcanchal:registry": "https://npm.pkg.github.com/xcanchal"
+    }
   }
 }
