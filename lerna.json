@@ -2,8 +2,5 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent",
-  "publish": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "version": "independent"
 }
