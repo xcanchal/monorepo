@@ -1,0 +1,23 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "A repository with multiple packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcanchal/monorepo.git"
+  },
+  "author": "Xavier Canchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xcanchal/monorepo/issues"
+  },
+  "homepage": "https://github.com/xcanchal/monorepo#readme",
+  "dependencies": {
+    "@xcanchal/date-logic": "^1.0.0",
+    "lerna": "^4.0.0"
+  }
+}
