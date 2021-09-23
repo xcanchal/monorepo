@@ -8,6 +8,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
+* **date-logic:** restore version ([e16df39](https://github.com/xcanchal/monorepo/commit/e16df39b689f2950f1e4432694f5ee6f164191e0))
+* **date-logic:** restore version ([28c66fd](https://github.com/xcanchal/monorepo/commit/28c66fdd17a5c887bed0d40a6ef645f809ec7eea))
+
+
+### Features
+
+* **date-logic:** creates package ([857efc7](https://github.com/xcanchal/monorepo/commit/857efc7057941c254f97d7cf2d49b4f8eae3b196))
+* **date-logic:** returns localized date string ([7decbab](https://github.com/xcanchal/monorepo/commit/7decbab3aab121c2235e3fa8fd79fe30ad4350c4))
+
+
+### BREAKING CHANGES
+
+* **date-logic:** changes the return type of the getDate function
+
+
+
+
+
+# 2.0.0 (2021-09-23)
+
+
+### Bug Fixes
+
 * **date-logic:** restore version ([28c66fd](https://github.com/xcanchal/monorepo/commit/28c66fdd17a5c887bed0d40a6ef645f809ec7eea))
 
 
