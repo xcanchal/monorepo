@@ -3,8 +3,8 @@
     "packages/*"
   ],
   "version": "independent",
-  "publish": {
-    "command": {
+  "command": {
+    "publish": {
       "@xcanchal:registry": "https://npm.pkg.github.com/xcanchal"
     }
   }
