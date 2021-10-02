@@ -18,7 +18,6 @@ jobs:
 
     - name: "Setup npm"
       run: |
-        echo "SECRET ---> ${{ secrets.PUBLISH_PACKAGES }}"
         npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
         npm set "//npm.pkg.github.com/:_authToken=${{ secrets.PUBLISH_PACKAGES }}"
 
