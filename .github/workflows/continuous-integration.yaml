@@ -19,4 +19,4 @@ jobs:
     - name: "Setup npm"
       run: |
         npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
-        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.PEC_READ_PACKAGES }}"
+        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.PUBLISH_PACKAGES }}"
