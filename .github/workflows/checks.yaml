@@ -1,5 +1,6 @@
-name: Continuous Integration
-on: push
+name: Checks
+on: pull_request
+  types: [opened, synchronize]
 
 jobs:
   checks:
