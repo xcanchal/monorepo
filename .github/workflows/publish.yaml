@@ -1,4 +1,4 @@
-name: Checks
+name: Publish
 
 on:
   pull_request:
@@ -22,6 +22,11 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '14'
+
+    - name: "Setup npm"
+      run: |
+        npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
+        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.PUBLISH_PACKAGES }}"
 
     - name: "Version and publish"
       env:
