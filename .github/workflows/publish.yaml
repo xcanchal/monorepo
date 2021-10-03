@@ -1,0 +1,37 @@
+name: Checks
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - development
+      - main
+
+jobs:
+  publish:
+    steps:
+      runs-on: ubuntu-latest
+
+    - name: "Checkout"
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: "Use NodeJS 14"
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: "Version and publish"
+      env:
+        GH_TOKEN: ${{ secrets.PUBLISH_PACKAGES }}
+      run: |
+        echo ${{ github.base_ref}}
+
+        if [ ${{ github.base_ref }} = "refs/heads/development" ]; then
+          echo "npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes"
+        else
+          echo "npx lerna version --conventional-commits --conventional-graduate --yes"
+        fi
+
+        echo npx lerna publish from-git --yes
