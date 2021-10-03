@@ -20,9 +20,9 @@ jobs:
         node-version: '14'
 
     - name: "Setup npm"
-       run: |
-         npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
-         npm set "//npm.pkg.github.com/:_authToken=${{ secrets.PUBLISH_PACKAGES }}"
+      run: |
+        npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
+        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.PUBLISH_PACKAGES }}"
 
      - name: Install dependencies
        run: |
