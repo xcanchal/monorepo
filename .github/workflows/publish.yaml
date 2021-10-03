@@ -27,12 +27,10 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.PUBLISH_PACKAGES }}
       run: |
-        echo ${{ github.base_ref }}
-
-        if [ ${{ github.base_ref }} = "refs/heads/development" ]; then
-          echo "npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes"
+        if [ ${{ github.base_ref }} = development ]; then
+          npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
         else
-          echo "npx lerna version --conventional-commits --conventional-graduate --yes"
+          npx lerna version --conventional-commits --conventional-graduate --yes
         fi
 
-        echo npx lerna publish from-git --yes
+        npx lerna publish from-git --yes
