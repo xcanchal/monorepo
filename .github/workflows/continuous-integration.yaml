@@ -2,7 +2,7 @@ name: Continuous Integration
 on: push
 
 jobs:
-  build:
+  checks:
     runs-on: ubuntu-latest
 
     steps:
