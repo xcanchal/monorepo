@@ -32,8 +32,8 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.PUBLISH_PACKAGES }}
       run: |
-        git config user.name "xcanchal"
-        git config user.email "xcanchal@users.noreply.github.com"
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor}}@users.noreply.github.com"
 
         if [ ${{ github.base_ref }} = development ]; then
           npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
