@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-logic@2.1.0-beta.1...@xcanchal/date-logic@2.1.0) (2021-10-04)
+
+**Note:** Version bump only for package @xcanchal/date-logic
+
+
+
+
+
 # [2.1.0-beta.1](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-logic@2.0.0...@xcanchal/date-logic@2.1.0-beta.1) (2021-10-03)
 
 
