@@ -1,6 +1,10 @@
 {
   "name": "@xcanchal/date-logic",
+<<<<<<< HEAD
   "version": "3.1.0-beta.1",
+=======
+  "version": "3.1.0",
+>>>>>>> 09d5e8f36f91714253d8f3f98659f9a6b811ec45
   "description": "A package that returns the current date",
   "main": "index.js",
   "repository": "https://github.com/xcanchal/monorepo",
