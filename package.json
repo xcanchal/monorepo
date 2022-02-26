@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/xcanchal/monorepo#readme",
   "dependencies": {
-    "@xcanchal/date-logic": "^1.0.0",
     "lerna": "^4.0.0"
   }
 }
