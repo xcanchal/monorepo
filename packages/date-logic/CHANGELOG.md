@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0-beta.3](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-logic@2.1.0-beta.2...@xcanchal/date-logic@2.1.0-beta.3) (2022-02-26)
+
+
+### Bug Fixes
+
+* **date-logic:** dumb change to trigger package versioning ([db06fed](https://github.com/xcanchal/monorepo/commit/db06fed9cb7558b14a2b119c5f8680ca7a57b919))
+* **date-logic:** dumb change to trigger package versioning ([2a868c6](https://github.com/xcanchal/monorepo/commit/2a868c6d0f0323e508269f6e3b331604954a539f))
+* **date-logic:** split version and publish ([b979e20](https://github.com/xcanchal/monorepo/commit/b979e20e98fe3225e28c70f96fff070e8990e7d0))
+* dumb change to trigger package versioning ([3edd33e](https://github.com/xcanchal/monorepo/commit/3edd33e0f215fe4cf8147604a94537180c9c013c))
+
+
+
+
+
 # [2.1.0-beta.2](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-logic@2.1.0-beta.1...@xcanchal/date-logic@2.1.0-beta.2) (2022-02-26)
 
 
