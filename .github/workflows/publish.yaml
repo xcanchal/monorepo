@@ -44,7 +44,7 @@ jobs:
           git checkout development
           git fetch --tags && git pull
           git pull origin main
-          git commit
+          git commit && git push
         fi
 
         npx lerna publish from-git --yes
