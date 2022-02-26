@@ -7,6 +7,9 @@
   "publishConfig": {
     "@xcanchal:registry": "https://npm.pkg.github.com/xcanchal"
   },
+  "dependencies": {
+    "@xcanchal/date-logic": "^3.0.0"
+  },
   "scripts": {
     "test": "echo TESTS PASSED"
   },
