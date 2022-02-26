@@ -41,8 +41,6 @@ jobs:
           npx lerna version --conventional-commits --conventional-graduate --yes
         fi
 
-        npx lerna publish from-git --yes
-
     - name: "Publish"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN}}
