@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1-beta.0](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-logic@3.0.0...@xcanchal/date-logic@3.0.1-beta.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* **date-logic:** update development from master workflow ([eec19ae](https://github.com/xcanchal/monorepo/commit/eec19aea7ce4179aaad21017614a3326e4de51ca))
+
+
+
+
+
 # 3.0.0 (2022-02-26)
 
 
