@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2-beta.0](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-renderer@1.1.1...@xcanchal/date-renderer@1.1.2-beta.0) (2022-02-26)
+
+
+### Bug Fixes
+
+* **date-renderer:** update dependency ([1fc6c06](https://github.com/xcanchal/monorepo/commit/1fc6c067bdeb2b16ee55ede6e906dc54a88c491e))
+
+
+
+
+
 ## [1.1.1](https://github.com/xcanchal/monorepo/compare/@xcanchal/date-renderer@1.1.1-beta.0...@xcanchal/date-renderer@1.1.1) (2022-02-26)
 
 **Note:** Version bump only for package @xcanchal/date-renderer

@@ -1,6 +1,6 @@
 {
   "name": "@xcanchal/date-renderer",
-  "version": "1.1.1",
+  "version": "1.1.2-beta.0",
   "description": "A package that prints the current date",
   "main": "index.js",
   "repository": "https://github.com/xcanchal/monorepo",
@@ -8,7 +8,7 @@
     "@xcanchal:registry": "https://npm.pkg.github.com/xcanchal"
   },
   "dependencies": {
-    "@xcanchal/date-logic": "^3.0.0"
+    "@xcanchal/date-logic": "^3.0.1-beta.0"
   },
   "scripts": {
     "test": "echo TESTS PASSED"
