@@ -1,14 +1,14 @@
 {
-  "name": "@xcanchal/date-renderer",
+  "name": "@primo/date-renderer",
   "version": "1.1.6",
   "description": "A package that prints the current date",
   "main": "index.js",
-  "repository": "https://github.com/xcanchal/monorepo",
+  "repository": "https://github.com/primo/monorepo",
   "publishConfig": {
-    "@xcanchal:registry": "https://npm.pkg.github.com/xcanchal"
+    "@primo:registry": "https://npm.pkg.github.com/primo"
   },
   "dependencies": {
-    "@xcanchal/date-logic": "^3.1.1"
+    "@primo/date-logic": "^3.1.1"
   },
   "scripts": {
     "test": "echo TESTS PASSED"

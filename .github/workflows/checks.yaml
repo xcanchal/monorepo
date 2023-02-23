@@ -21,8 +21,8 @@ jobs:
 
     - name: "Setup npm"
       run: |
-        npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
-        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+        npm set @primo:registry=https://npm.pkg.github.com/primo
+        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GH_TOKEN }}"
 
     - name: Install dependencies
       run: |

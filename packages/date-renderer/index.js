@@ -1,4 +1,4 @@
-const getDate = require('@xcanchal/date-logic');
+const getDate = require('@primo/date-logic');
 
 (() => {
   console.log(`Date: ${getDate()}`);
