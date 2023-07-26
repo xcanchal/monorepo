@@ -38,9 +38,7 @@ jobs:
         git checkout ${{ github.ref }}
 
         if [ ${{ github.base_ref }} = development ]; then
-          npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
+          npx lerna publish --canary --preid dev
         else
-          npx lerna version --conventional-commits --conventional-graduate --yes
+          npx lerna publish
         fi
-
-        npx lerna publish from-git --yes
