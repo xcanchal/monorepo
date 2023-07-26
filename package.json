@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xcanchal/monorepo.git"
+    "url": "git+https://github.com/cancio86/monorepo.git"
   },
   "author": "Xavier Canchal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xcanchal/monorepo/issues"
+    "url": "https://github.com/cancio86/monorepo/issues"
   },
-  "homepage": "https://github.com/xcanchal/monorepo#readme",
+  "homepage": "https://github.com/cancio86/monorepo#readme",
   "dependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^7.1.4"
   }
 }

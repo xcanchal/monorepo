@@ -21,13 +21,12 @@ jobs:
 
     - name: "Setup npm"
       run: |
-        npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
+        npm set @cancio86:registry=https://npm.pkg.github.com/cancio86
         npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
 
     - name: Install dependencies
       run: |
         npm ci
-        npx lerna bootstrap
 
     - name: Run tests
       run: npx lerna exec npm run test

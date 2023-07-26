@@ -25,7 +25,7 @@ jobs:
 
     - name: "Setup npm"
       run: |
-        npm set @xcanchal:registry=https://npm.pkg.github.com/xcanchal
+        npm set @cancio86:registry=https://npm.pkg.github.com/cancio86
         npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
     - name: "Version and publish"
       env:

@@ -1,11 +1,11 @@
 {
-  "name": "@xcanchal/date-logic",
+  "name": "@cancio86/date-logic",
   "version": "3.1.1",
   "description": "A package that returns the current date",
   "main": "index.js",
-  "repository": "https://github.com/xcanchal/monorepo",
+  "repository": "https://github.com/cancio86/monorepo",
   "publishConfig": {
-    "@xcanchal:registry": "https://npm.pkg.github.com/xcanchal"
+    "@cancio86:registry": "https://npm.pkg.github.com/cancio86"
   },
   "scripts": {
     "test": "echo TESTS PASSED"
