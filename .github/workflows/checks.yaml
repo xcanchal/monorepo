@@ -30,4 +30,4 @@ jobs:
         npx lerna bootstrap
 
     - name: Run tests
-      run: npx lerna exec npm run test
+      run: npx lerna exec npm run test 
